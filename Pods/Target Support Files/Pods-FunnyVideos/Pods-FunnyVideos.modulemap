@@ -1,0 +1,6 @@
+framework module Pods_FunnyVideos {
+  umbrella header "Pods-FunnyVideos-umbrella.h"
+
+  export *
+  module * { export * }
+}

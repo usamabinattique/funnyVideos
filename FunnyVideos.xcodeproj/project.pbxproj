@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36006C3438A4126A1329044A /* Pods_FunnyVideos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3983C9B971760BE3BF8788E7 /* Pods_FunnyVideos.framework */; };
+		3CB419A51E5AF1AB0097C85A /* funnyVideos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB419A41E5AF1AB0097C85A /* funnyVideos.swift */; };
+		3CB419A71E5AFFFE0097C85A /* VideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB419A61E5AFFFE0097C85A /* VideoPlayer.swift */; };
+		3CB41A0C1E5C302D0097C85A /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB41A0B1E5C302D0097C85A /* constants.swift */; };
+		3CB4F8E11E5C533500BF66CF /* HelpingCurl.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB4F8E01E5C533500BF66CF /* HelpingCurl.m */; };
 		3CCEAB001E5ACF38000C7059 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCEAAFF1E5ACF38000C7059 /* AppDelegate.swift */; };
 		3CCEAB051E5ACF3A000C7059 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CCEAB031E5ACF3A000C7059 /* Main.storyboard */; };
 		3CCEAB071E5ACF3A000C7059 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CCEAB061E5ACF3A000C7059 /* Assets.xcassets */; };
@@ -14,6 +19,7 @@
 		3CCEAB151E5ACF4A000C7059 /* FunnyVideosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCEAB141E5ACF4A000C7059 /* FunnyVideosTests.swift */; };
 		3CCEAB201E5ACF4B000C7059 /* FunnyVideosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCEAB1F1E5ACF4B000C7059 /* FunnyVideosUITests.swift */; };
 		3CCEAB311E5AD114000C7059 /* mainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCEAB301E5AD114000C7059 /* mainVC.swift */; };
+		3CCEAB331E5ADB48000C7059 /* fvCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCEAB321E5ADB48000C7059 /* fvCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04BFC25807E38C8EFD4DB7E7 /* Pods_FunnyVideosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FunnyVideosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3983C9B971760BE3BF8788E7 /* Pods_FunnyVideos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FunnyVideos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CB419A41E5AF1AB0097C85A /* funnyVideos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = funnyVideos.swift; sourceTree = "<group>"; };
+		3CB419A61E5AFFFE0097C85A /* VideoPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPlayer.swift; sourceTree = "<group>"; };
+		3CB41A0B1E5C302D0097C85A /* constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
+		3CB4F8DE1E5C533400BF66CF /* FunnyVideos-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FunnyVideos-Bridging-Header.h"; sourceTree = "<group>"; };
+		3CB4F8DF1E5C533500BF66CF /* HelpingCurl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpingCurl.h; sourceTree = "<group>"; };
+		3CB4F8E01E5C533500BF66CF /* HelpingCurl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpingCurl.m; sourceTree = "<group>"; };
 		3CCEAAFC1E5ACF36000C7059 /* FunnyVideos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunnyVideos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CCEAAFF1E5ACF38000C7059 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CCEAB041E5ACF3A000C7059 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -47,6 +61,10 @@
 		3CCEAB1F1E5ACF4B000C7059 /* FunnyVideosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunnyVideosUITests.swift; sourceTree = "<group>"; };
 		3CCEAB211E5ACF4C000C7059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3CCEAB301E5AD114000C7059 /* mainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainVC.swift; sourceTree = "<group>"; };
+		3CCEAB321E5ADB48000C7059 /* fvCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fvCell.swift; sourceTree = "<group>"; };
+		42A42BBED8AA5C07BA7E6F8E /* Pods-FunnyVideos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunnyVideos.release.xcconfig"; path = "Pods/Target Support Files/Pods-FunnyVideos/Pods-FunnyVideos.release.xcconfig"; sourceTree = "<group>"; };
+		8B476EBEA644C01742316555 /* Pods_FunnyVideosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FunnyVideosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC166F666735FD4BF91B15C /* Pods-FunnyVideos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunnyVideos.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FunnyVideos/Pods-FunnyVideos.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36006C3438A4126A1329044A /* Pods_FunnyVideos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +100,8 @@
 				3CCEAB131E5ACF4A000C7059 /* FunnyVideosTests */,
 				3CCEAB1E1E5ACF4B000C7059 /* FunnyVideosUITests */,
 				3CCEAAFD1E5ACF36000C7059 /* Products */,
+				4F7329D871A0834D50979EA1 /* Pods */,
+				D6F412C202336E409C00F25A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +122,7 @@
 				3CCEAB2E1E5ACF76000C7059 /* View */,
 				3CCEAB2D1E5ACF69000C7059 /* Model */,
 				3CCEAAFF1E5ACF38000C7059 /* AppDelegate.swift */,
+				3CCEAB031E5ACF3A000C7059 /* Main.storyboard */,
 				3CCEAB061E5ACF3A000C7059 /* Assets.xcassets */,
 				3CCEAB081E5ACF3B000C7059 /* LaunchScreen.storyboard */,
 				3CCEAB0B1E5ACF3B000C7059 /* Info.plist */,
@@ -129,6 +151,11 @@
 		3CCEAB2D1E5ACF69000C7059 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3CB419A41E5AF1AB0097C85A /* funnyVideos.swift */,
+				3CB4F8DF1E5C533500BF66CF /* HelpingCurl.h */,
+				3CB4F8E01E5C533500BF66CF /* HelpingCurl.m */,
+				3CB4F8DE1E5C533400BF66CF /* FunnyVideos-Bridging-Header.h */,
+				3CB41A0B1E5C302D0097C85A /* constants.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -136,7 +163,7 @@
 		3CCEAB2E1E5ACF76000C7059 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				3CCEAB031E5ACF3A000C7059 /* Main.storyboard */,
+				3CCEAB321E5ADB48000C7059 /* fvCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -145,8 +172,28 @@
 			isa = PBXGroup;
 			children = (
 				3CCEAB301E5AD114000C7059 /* mainVC.swift */,
+				3CB419A61E5AFFFE0097C85A /* VideoPlayer.swift */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		4F7329D871A0834D50979EA1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FAC166F666735FD4BF91B15C /* Pods-FunnyVideos.debug.xcconfig */,
+				42A42BBED8AA5C07BA7E6F8E /* Pods-FunnyVideos.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D6F412C202336E409C00F25A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3983C9B971760BE3BF8788E7 /* Pods_FunnyVideos.framework */,
+				04BFC25807E38C8EFD4DB7E7 /* Pods_FunnyVideosTests.framework */,
+				8B476EBEA644C01742316555 /* Pods_FunnyVideosUITests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,9 +203,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3CCEAB241E5ACF4C000C7059 /* Build configuration list for PBXNativeTarget "FunnyVideos" */;
 			buildPhases = (
+				4E135CE84D40C8DDB76C0F09 /* [CP] Check Pods Manifest.lock */,
 				3CCEAAF81E5ACF36000C7059 /* Sources */,
 				3CCEAAF91E5ACF36000C7059 /* Frameworks */,
 				3CCEAAFA1E5ACF36000C7059 /* Resources */,
+				73F0B637AFA77A0B2C386AEE /* [CP] Embed Pods Frameworks */,
+				9FF975C86AEF5829FCEF826A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -217,6 +267,7 @@
 				TargetAttributes = {
 					3CCEAAFB1E5ACF36000C7059 = {
 						CreatedOnToolsVersion = 8.2;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					3CCEAB0F1E5ACF4A000C7059 = {
@@ -278,12 +329,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4E135CE84D40C8DDB76C0F09 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		73F0B637AFA77A0B2C386AEE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FunnyVideos/Pods-FunnyVideos-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FF975C86AEF5829FCEF826A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FunnyVideos/Pods-FunnyVideos-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3CCEAAF81E5ACF36000C7059 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CCEAB331E5ADB48000C7059 /* fvCell.swift in Sources */,
+				3CB4F8E11E5C533500BF66CF /* HelpingCurl.m in Sources */,
+				3CB419A71E5AFFFE0097C85A /* VideoPlayer.swift in Sources */,
 				3CCEAB001E5ACF38000C7059 /* AppDelegate.swift in Sources */,
+				3CB41A0C1E5C302D0097C85A /* constants.swift in Sources */,
+				3CB419A51E5AF1AB0097C85A /* funnyVideos.swift in Sources */,
 				3CCEAB311E5AD114000C7059 /* mainVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,24 +538,31 @@
 		};
 		3CCEAB251E5ACF4C000C7059 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAC166F666735FD4BF91B15C /* Pods-FunnyVideos.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = FunnyVideos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = S3.FunnyVideos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FunnyVideos/FunnyVideos-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		3CCEAB261E5ACF4C000C7059 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42A42BBED8AA5C07BA7E6F8E /* Pods-FunnyVideos.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = FunnyVideos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = S3.FunnyVideos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FunnyVideos/FunnyVideos-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -529,6 +640,7 @@
 				3CCEAB261E5ACF4C000C7059 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3CCEAB271E5ACF4C000C7059 /* Build configuration list for PBXNativeTarget "FunnyVideosTests" */ = {
 			isa = XCConfigurationList;
@@ -537,6 +649,7 @@
 				3CCEAB291E5ACF4C000C7059 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3CCEAB2A1E5ACF4C000C7059 /* Build configuration list for PBXNativeTarget "FunnyVideosUITests" */ = {
 			isa = XCConfigurationList;
@@ -545,6 +658,7 @@
 				3CCEAB2C1E5ACF4C000C7059 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
